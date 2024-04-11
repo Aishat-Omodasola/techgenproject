@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.proj1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(../image/enrolment3.jpg);
+    height: 300px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.h1{
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+.sub{
+    color: orange;
+}
+.end{
+    color: orange;
+}
+.proj2{
+    display: flex;
+    flex-direction: column;
+    background-color:aliceblue;
+    padding: 30px 15px;
+    margin: 25px 10px;
+    border-style: dashed;
+    border-color: lightgray;
+    border-radius: 8px;
+}
+.story{
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.proj2 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.africa{
+    color: orange;
+}
+.text1{
+    padding: 15px 0;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    border-style: groove;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+.image img{
+    width: 250px;
+}
+.proj3{
+    display: flex;
+    flex-direction: column; 
+    background-color: aliceblue;
+    margin: 25px 10px;
+    padding: 30px 15px;
+    border-style: dashed;
+    border-color: lightgray;
+    border-radius: 8px;
+}
+.mission{
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.proj3 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.impact{
+    color: orange;
+}
+.text2{
+    padding: 15px 0px;
+}
+.proj3 img{
+    width: 145px;
+    height: 140px;
+    padding: 3px 0px;
+}
+.image2{
+    border-style: groove;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.image2sub1{
+    flex-direction: row;
+}
+.image2sub2{
+    flex-direction: row;
+}
+.proj4{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-style: dashed;
+    border-color: lightgray;
+    margin: 15px 10px;
+    padding: 30px 15px;
+    border-radius: 8px;
+}
+.approach{
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.proj4 span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.future{
+    color: orange;
+}
+.text3{
+    padding: 15px 0px;
+}
+.image3{
+    border-style: groove;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 7px;
+}
+.proj4 img{
+    width: 145px;
+    height: 140px;
+}
+.image3sub1{
+    flex-direction: row;
+}
+.image3sub2{
+    flex-direction: row;
+}
+.proj5{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 35px 0px;
+}
+.proj5 img{
+    width: 200px;
+    height: 190px;
+    padding: 10px 0px;
+}
+.leadership{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.hub{
+    font-weight: bold;
+    font-size: 20px;
+    flex-direction: row;
+}
+.advisory{
+    color: orange;
+}
+
+.butt-parent{
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.board{
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+
+}
+.team{
+    width: 100px;
+    border: none;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+}
+.image4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image4one{
+    border-style: dashed;
+    border-color: gainsboro;
+    border-radius: 10px;
+    margin: 20px 30px;
+}
+.image4 span{
+    display: flex;
+    flex-direction: column;
+}
+.balogun{
+    font-weight: bold;
+}
+.image4two{
+    border-style: dashed;
+    border-color: gainsboro;
+    border-radius: 10px;
+    margin: 20px 30px;
+}
+.nurudeen{
+    font-weight: bold;
+}
+.cto{
+    font-weight: normal;
+}
+.image4three{
+    border-style: dashed;
+    border-color: gainsboro;
+    border-radius: 10px;
+    margin: 20px 30px;
+    background: linear-gradient(to right,rgba(255, 255, 224, 0.9),rgba(255, 253, 253, 0.3)); 
+}
+.qudus{
+    font-weight: bold;
+}
+.cfo{
+    font-weight: normal;
+}
+@media screen and (min-width:768px){
+    .proj2{
+        margin: 30px 120px;
+    }
+    .proj3{
+        margin: 0 120px;
+    }
+    .proj4{
+        margin: 30px 120px;
+    }
+}
+@media screen and (min-width:913px){
+    .proj1{
+        height: 550px;
+        font-size: 80px;
+    }
+    .proj2{
+        flex-direction: row; 
+        justify-content: space-between;
+        padding: 0 70px;
+        margin: 30px 90px;
+        height: 400px;
+        align-items: center;
+    }
+    .text1{
+        width: 500px;
+    }
+    .image{
+        padding: 11px 10px;
+    }
+    .proj2 img{
+        height: 250px;
+        width: 300px;
+    }
+    .proj3{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 70px;
+        margin: 30px 90px;
+        height: 400px;
+        align-items: center;
+    }
+    .text2{
+        width: 500px;
+    }
+    .proj3 img{
+        width: 150px;
+        height: 150px;
+    }
+    .image2{
+        padding: 9px 7px;
+    }
+    .proj4{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 400px;
+        align-items: center;
+        margin: 30px 90px;
+        padding: 0 70px;
+    }
+    .text3{
+        width: 500px;
+    }
+    .proj4 img{
+        width: 150px;
+        height: 150px;
+    }
+    .image3{
+        padding: 9px 7px;
+    }
+    .proj5 img{
+        height: 200px;
+        width: 200px;
+    }
+    .image4{
+        flex-direction: row;
+        margin: 30px 150px; 
+    }
+    .image4one{
+        padding: 10px 25px;
+    }
+    .image4two{
+        padding: 10px 25px;
+    }
+    .image4three{
+        padding: 10px 25px;
+    }
+    
+}
